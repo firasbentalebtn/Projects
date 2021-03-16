@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 1.6rem;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  font-family: 'MedievalSharp', cursive;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+
+}
+
+#nav img {
+  width: 200px;
+  height: auto;
+
+}
+
+#header {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./img/bg.jpg);
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+
+  margin-bottom: 5rem;
+}
+
+#header::after {
+  content: "";
+  display: block;
+  position: fixed;
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.caption {
+  display: inline;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+
+  padding: 2rem;
+}
+
+#title {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline;
+  position: absolute;
+  top: 30%;
+  right: 12%;
+  font-size: 2.8rem;
+  border-radius: 1rem;
+
+  padding: 1rem 2rem;
+
+}
+
+
+#tribute-info h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  background-color: #000;
+  display: inline;
+  padding: .6rem;
+  color: #fff;
+  border-radius: 1rem;
+
+
+}
+
+.container {
+  display: flex;
+  padding-top: 3rem;
+  color: #000;
+  background-color: #DDD;
+  border-radius: 2rem;
+  margin-top: 2rem;
+
+}
+
+.container .left ul {
+  list-style: none;
+  text-align: justify;
+
+}
+
+.container .left ul li p {
+  border: 2px solid #000;
+  border-radius: 1rem;
+  padding: 1rem;
+  line-height: 2;
+  font-weight: 700;
+
+
+}
+
+#img-div #image {
+  max-width: 100%;
+  width: 500rem;
+  display: block;
+
+  height: auto;
+  border-radius: 2rem;
+
+}
+
+#img-caption {
+  font-family: 'MedievalSharp', cursive;
+  font-weight: 700;
+  margin: 1rem 0 1rem 0;
+}
+
+footer h3 {
+  font-family: 'MedievalSharp', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #660000;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#tribute-link:hover {
+  color: #000;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
